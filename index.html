@@ -10,69 +10,38 @@
        <meta name="description" content="Nauka Tworzenia stron internetowych"/>
        <meta name="keywords" content="HTML,CSS,XHTML,WWW"/>
     </head> 
-       <body style="background-color: rgb(169,169,169);">
-           <!--bgcolor = backgroundcolor = kolor tła-->
-           <!--HTML Colors Names = tam szukam nazw kolorów lub HEX-a, Hex= #+ RGB(red-blue-green o odpowiedniej intensywności-->
-        <b>To jest pogrubiony tekst</b> <!--b bold = pogrubienie--><br /><!--br break = przerwać-->
-        <i>To jest tekst pochylony</i> <!--i italic = pochylenie--><br />
-        <u>To jest tekst podkreślony</u> <!--u underline = podkreślenie--><br />
-        <s>To jest przekreślony tekst</s> <!--s strike through = przekreślić przez--><br />
-        <font size="15">to jest jakiś duży tekst</font><br />
-        <font color="red">to jest czerwony tekst</font><br />
-        <font face="Georgia">to jest czcionka Georgia</font><br />
-        <font face="Arial">to jest czcionka Arial</font><br />
+    <body style="background-color: rgb(169,169,169);">
+      <ol type="I" start="4"><!--OL stands for order list = ponumerowana lista-->
+        <li>Element 1</li><!--LI List Item - element listy-->
+        <li>&nbsp;&nbsp;&nbsp;Niełamiące się spacje&nbsp;&nbsp;&nbsp;</li>
+        <li>Element 3</li>
+        <li>Element 4 </li>
+        <li>Element 5</li>
+      </ol>
 
-        <!--tagi semantyczne = tagi mające większą wartość--> 
-        <strong>To jest tekst pogrubiony, ale niesie on wartość semantyczną, jest on pogrubiony również dla robotów, nie tylko dla użytkownika</strong><br />
-        <em>To jest pochylony teks niesiący wartość semantyczną</em> <!-- emphasis = nacisk, podkreślenie--><br />
-        x<sup>2</sup> a <sub>1</sub><br />
-        <sup>to jest tekst</sup> To jest tekst. <sub>to jest tekst</sub> <br />
-        <!--header = nagłówek-->
-        <h1>To jest główny tytuł</h1>
-        <h2>To jest podtytuł</h2>
-        <h6>to jest najmniej ważny tytuł</h6>
+      <ul type="circle"><!--UL stands for Unordered list - nieponumerowana lista-->
+        <li>jeden</li>
+        <li>trzy</li>
+        <li>pięć</li>
+        <li>osiem</li>
+        <li>siedem</li>
+      </ul>
 
-        <pre><!-- pre od pre-formatted = formatuje mi to co jest pomiędzy w odpowiedni sposób-->
-          <code>
+      <dl><!--definition list - lista przechowywująca definicje-->
+        <dt></dt><!--definition term -->
+        <dt>to jest definiowane pojęcie</dt>
+        <dd></dd><!--definition data / description-->
+        <dd>definicja opisu z dt</dd>
+      </dl>
+      <fieldset>
+        <legend>Opis</legend>
+        To jest opisowy opis z opisowym opisem xd
+      </fieldset><br />
+      <hr>
+      <hr width="20%" color="blue" align="center"> 
+    
 
-        #include &lt;iostream>
+    </body>
 
-        using namespace std;
+  </html>
 
-        int main()
-        (
-          cout &lt;&lt;&quot; To jest jakiś prosty tekst &quot;;
-          system(&quot;pause&quot;);
-        )
-          </code>
-        </pre>
-
-        &lt;pre> służy do pokazania pre-sformatowanego tekstu.</pre>
-
-        <cite>Patrycja Sulej</cite>
-        <blockquote cite:"www.google.pl">
-          <p>Co Cię nie zabije to Cię wzmocni</blockquote>
-          </p>
-
-        <dfn> <!--dfn = define =definiować czyli opisywać-->
-          To jest jakaś definicja xD<br />
-
-        </dfn>
-        <pre>
-        <adress>
-          Patrycja Sulej,
-          Klonownica Mała 51a,
-          21-505 Janów Podlaski
-        </adress>
-        </pre>
-
-        <acronym title="World Wide Web Consortium">W3C</acronym><!--acronym = skrótowiec (najczęściej kilka wyrazów z dużych liter)-->
-        <abbr title="profesor">prof.</abbr><!--abbreviation = skrót-->
-
-        <p align="left">Zacznijmy od tego, którą gałąź informatyki mam zamiar omawiać, ponieważ pojęcie "informatyka" jest bardzo wieloznaczne. W sumie to informatykiem w dzisiejszym skomputeryzowanym świecie może nazwać się prawie każdy - wystarczy, że potrafi się przetwarzać informacje znajdujące się w naszych komputerach, czyli np. przeszukiwać zawartość internetu przy pomocy wyszukiwarki</p>
-            <!--p= paragraph- akapit-->
-        Ja mam zamiar przekazać Ci tajniki w jaki sposób efektywnie uczyć się programować. Co to tak naprawdę oznacza słowo PROGRAMOWANIE? Programowanie oznacza pisanie kodu w jakimś języku, czyli czymś za pomocą czego możemy komunikować się z naszą można by rzec bez nas głupią (przynajmniej na razie) maszyną PC (Personal Computer). Czyli programowanie można by porównać do pisania tejże tutaj lekcji, przy pomocy której komunikuję się z Tobą w języku polskim. My skupimy się jednak na programowaniu w innym języku, a dokładniej będzie nim Java. Oznacza to, że przy pomocy Javy, będziemy pisać pewnego rodzaju artykuł w naszym wypadku będzie to kod źródłowy, który zostanie zamieniony na język zrozumiały przez naszą maszynę
-
-       </body>
- 
-</html>
